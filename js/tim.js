@@ -11,7 +11,7 @@ const timMHS1 = `
 
 const timMHS2 = `
   <h1>${tim.nama[1]}</h1>
-  <p>${tim.npm[1]}</p>S
+  <p>${tim.npm[1]}</p>
   <p>${tim.email[1]}</p>
 `;
 const combinedTimHTML = timMHS1 + timMHS2; // Gabungkan kedua konten dalam satu variabel

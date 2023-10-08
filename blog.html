@@ -16,94 +16,54 @@
 
 <body>
     <!-- START NAV -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="../">
-                    <img src="images/todolist.png" alt="Logo">
-                </a>
-                <span class="navbar-burger burger" data-target="navbarMenu">
-                        <span></span>
-                <span></span>
-                <span></span>
-                </span>
-            </div>
-            <!-- <div id="navbarMenu" class="navbar-menu">
-                <div class="navbar-end">
-                    <a class="navbar-item is-active">
-                            Home
+    <section class="hero is-info is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar is-fixed-top">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../">
+                            <img src="images/todolist.png" alt="Logo">
                         </a>
-                    <a class="navbar-item">
-                            Examples
-                        </a>
-                    <a class="navbar-item">
-                            Features
-                        </a>
-                    <a class="navbar-item">
-                            Team
-                        </a>
-                    <a class="navbar-item">
-                            Archives
-                        </a>
-                    <a class="navbar-item">
-                            Help
-                        </a>
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                                Account
-                            </a>
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item">
-                                    Dashboard
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="index.html">
+                                    <span class="icon">
+                                        <i class="fa fa-home"></i>
+                                    </span>
+                                    <span>Home</span>
                                 </a>
-                            <a class="navbar-item">
-                                    Profile
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="#">
+                                    <span class="icon">
+                                        <i class="fa fa-superpowers"></i>
+                                    </span>
+                                    <span>Proposal</span>
                                 </a>
-                            <a class="navbar-item">
-                                    Settings
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="team.html">
+                                    <span class="icon">
+                                        <i class="fa fa-book"></i>
+                                    </span>
+                                    <span>Team</span>
                                 </a>
-                            <hr class="navbar-divider">
-                            <div class="navbar-item">
-                                Logout
-                            </div>
+                            </span>
                         </div>
                     </div>
                 </div>
-            </div> -->
-
-            <div id="navbarMenu" class="navbar-menu">
-                <div class="navbar-end">
-                    <span class="navbar-item">
-                        <a class="button is-black is-outlined" href="index.html">
-                            <span class="icon">
-                                <i class="fa fa-home"></i>
-                            </span>
-                            <span>Home</span>
-                        </a>
-                    </span>
-                    <span class="navbar-item">
-                        <a class="button is-black is-outlined" href="#">
-                            <span class="icon">
-                                <i class="fa fa-superpowers"></i>
-                            </span>
-                            <span>Proposal</span>
-                        </a>
-                    </span>
-                    <span class="navbar-item">
-                        <a class="button is-black is-outlined" href="team.html">
-                            <span class="icon">
-                                <i class="fa fa-book"></i>
-                            </span>
-                            <span>Team</span>
-                        </a>
-                    </span>
-                </div>
+            </nav>
             </div>
-        </div>
-    </nav>
     <!-- END NAV -->
 
-    <section class="hero is-info is-medium is-bold">
+    <section class="hero is-info is-fullheight">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div id="judulproposal" class="title"></div>
@@ -199,11 +159,12 @@
                     </div>
                 </div>
                 <!-- END ARTICLE -->
-              </div>
-
+            </div>
         </section>
         <!-- END ARTICLE FEED -->
         </div>
+    </div>
+    </section>
         <script async type="text/javascript" src="js/bulma.js"></script>
         <script async type="module" src="js/blog.js"></script>
 </body>

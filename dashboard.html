@@ -30,16 +30,16 @@
             </div>
             <div id="navbarMenu" class="navbar-menu">
                 <div class="navbar-end">
-                    <a class="navbar-item is-active"
-                    href="dashboard.html">
+                    <a class="navbar-item is-active">
                             Home
                         </a>
-                    <a id="proposal"class="navbar-item">
+                    <a id="blog" class="navbar-item"
+                    href="blog.html">
                             Proposal
                         </a>
                     <a class="navbar-item"
                     href="team.html">
-                            TEAM
+                           TEAM
                         </a>
                     <!--<a class="navbar-item">
                             Team
@@ -87,63 +87,15 @@
 
     <div class="container">
         <!-- START ARTICLE FEED -->
-        <section class="articles">
-            <div class="column is-8 is-offset-2">
-                <!-- START ARTICLE -->
-                <div class="card article">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-center">
-                                <img src="https://res.cloudinary.com/ameo/image/upload/v1639144778/typocat_svbspx.png" class="author-image" alt="Placeholder image">
-                            </div>
-                            <div class="content">
-                                <div id="latarbelakang"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END ARTICLE -->
-                <!-- START ARTICLE -->
-                <div class="card article">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-center">
-                                <img src="https://res.cloudinary.com/ameo/image/upload/v1639144778/typocat_svbspx.png" class="author-image" alt="Placeholder image">
-                            </div>
-                            <div class="content">
-                                <div id="tujuan"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card article">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-center">
-                                <img src="https://res.cloudinary.com/ameo/image/upload/v1639144778/typocat_svbspx.png" class="author-image" alt="Placeholder image">
-                            </div>
-                            <div class="content">
-                                <div id="alasan"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card article">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-center">
-                                <img src="https://res.cloudinary.com/ameo/image/upload/v1639144778/typocat_svbspx.png" class="author-image" alt="Placeholder image">
-                            </div>
-                            <div class="content">
-                                <div id="manfaat"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- END ARTICLE -->
+        <section class="tombol">
+            <!--BUTTON START-->
+            <div class="field is-grouped is-grouped-centered">
+                <div class="buttons">
+                    <button onclick="ClickButton()" id="button" class="button is-primary">WELCOME TO OUR SITE!</button>
+                  </div>
+            
+            
+            <!--BUTTON END-->
                 <!-- START PROMO BLOCK -->
                 <!-- <section class="hero is-info is-bold is-small promo-block">
                     <div class="hero-body">
@@ -157,21 +109,6 @@
                     </div>
                 </section> -->
                 <!-- END PROMO BLOCK -->
-                <!-- START ARTICLE -->
-                <div class="card article">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-center">
-                                <img src="https://res.cloudinary.com/ameo/image/upload/v1639144778/typocat_svbspx.png" class="author-image" alt="Placeholder image">
-                            </div>
-                            <div class="content">
-                                <div id="kesimpulan"></div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <!-- END ARTICLE -->
               </div>
 
         </section>
@@ -179,6 +116,7 @@
         </div>
         <script async type="text/javascript" src="./js/bulma.js"></script>
         <script async type="module" src="./js/script.js"></script>
+        <script>src="./js/btn.js"</script>
 </body>
 
 </html>

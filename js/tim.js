@@ -1,14 +1,20 @@
-import data from "./data.json" assert {type: "json"};
-import {setInner} from "https://jscroot.github.io/element/croot.js";
+import data from "./data.json";
+import { setInner } from "https://jscroot.github.io/element/croot.js";
 
-setInner("tim", `
-<h1>${data.tim.nama}</h1>
-<p>${data.tim.npm}</p>
-<p>${data.tim.email}</p>
-`); 
+const { tim } = data; // Destructuring untuk mengakses objek 'tim' dari data JSON
 
-setInner("tim", `
-<h1>${data.tim.nama}</h1>
-<p>${data.tim.npm}</p>
-<p>${data.tim.email}</p>
-`); 
+const timMHS1 = `
+  <h1>${tim.nama[0]}</h1>
+  <p>${tim.npm[0]}</p>S
+  <p>${tim.email[0]}</p>
+`;
+
+const timMHS2 = `
+  <h1>${tim.nama[1]}</h1>
+  <p>${tim.npm[1]}</p>S
+  <p>${tim.email[1]}</p>
+`;
+
+setInner("tim", timMHS1);
+
+setInner("tim", timMHS2);

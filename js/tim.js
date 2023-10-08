@@ -14,7 +14,6 @@ const timMHS2 = `
   <p>${tim.npm[1]}</p>S
   <p>${tim.email[1]}</p>
 `;
+const combinedTimHTML = timMHS1 + timMHS2; // Gabungkan kedua konten dalam satu variabel
 
-setInner("tim", timMHS1);
-
-setInner("tim", timMHS2);
+setInner("tim", combinedTimHTML);

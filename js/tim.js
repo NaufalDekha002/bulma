@@ -1,19 +1,16 @@
-import data from "./data.json";
-import { setInner } from "https://jscroot.github.io/element/croot.js";
+import data from "./data.json" assert {type: "json"};
+import {setInner} from "https://jscroot.github.io/element/croot.js";
 
-const { tim } = data; // Destructuring untuk mengakses objek 'tim' dari data JSON
+setInner("judul", data.judul);
 
-const timMHS1 = `
-  <h1>${tim.nama[0]}</h1>
-  <p>${tim.npm[0]}</p>S
-  <p>${tim.email[0]}</p>
-`;
+setInner("tim1", `
+<strong>${data.tim[0].nama}</strong>
+<br>${data.tim[0].npm}
+<br>${data.tim[0].email}
+`);
 
-const timMHS2 = `
-  <h1>${tim.nama[1]}</h1>
-  <p>${tim.npm[1]}</p>
-  <p>${tim.email[1]}</p>
-`;
-const combinedTimHTML = timMHS1 + timMHS2; // Gabungkan kedua konten dalam satu variabel
-
-setInner("tim", combinedTimHTML);
+setInner("tim2", `
+<strong>${data.tim[1].nama}</strong>
+<br>${data.tim[1].npm}
+<br>${data.tim[1].email}
+`);

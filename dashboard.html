@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title id="judul"></title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bulma Version 0.9.X-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/blog.css">
+</head>
+
+<body>
+    <!-- START NAV -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../">
+                    <img src="../images/todolist.png" alt="Logo">
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenu">
+                        <span></span>
+                <span></span>
+                <span></span>
+                </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item is-active">
+                            Home
+                        </a>
+                    <a id="blog" class="navbar-item"
+                    href="blog.html">
+                            Proposal
+                        </a>
+                    <a class="navbar-item"
+                    href="team.html">
+                           TEAM
+                        </a>
+                    <!--<a class="navbar-item">
+                            Team
+                        </a>
+                    <a class="navbar-item">
+                            Archives
+                        </a>
+                    <a class="navbar-item">
+                            Help
+                        </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                                Account
+                            </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                    Dashboard
+                                </a>
+                            <a class="navbar-item">
+                                    Profile
+                                </a>
+                            <a class="navbar-item">
+                                    Settings
+                                </a>
+                            <hr class="navbar-divider">
+                            <div class="navbar-item">
+                                Logout
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+
+    <section class="hero is-info is-medium is-bold">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div id="judulproposal" class="title"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <!-- START ARTICLE FEED -->
+        <section class="tombol">
+            <!--BUTTON START-->
+            <div class="field is-grouped is-grouped-centered">
+                <div class="buttons">
+                    <button onclick="ClickButton()" id="button" class="button is-primary">WELCOME TO OUR SITE!</button>
+                  </div>
+            
+            
+            <!--BUTTON END-->
+                <!-- START PROMO BLOCK -->
+                <!-- <section class="hero is-info is-bold is-small promo-block">
+                    <div class="hero-body">
+                        <div class="container">
+                            <h1 class="title">
+                                <i class="fa fa-bell-o"></i> Nemo enim ipsam voluptatem quia.</h1>
+                            <span class="tag is-black is-medium is-rounded">
+                                    Natus error sit voluptatem
+                                </span>
+                        </div>
+                    </div>
+                </section> -->
+                <!-- END PROMO BLOCK -->
+              </div>
+
+        </section>
+        <!-- END ARTICLE FEED -->
+        </div>
+        <script async type="text/javascript" src="./js/bulma.js"></script>
+        <script async type="module" src="./js/script.js"></script>
+        <script>src="./js/btn.js"</script>
+</body>
+
+</html>

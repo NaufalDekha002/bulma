@@ -28,6 +28,7 @@
     padding: 1.5rem;
     box-shadow: 8px 8px 15px var(--shadowDark), -8px -8px 15px var(--shadowLight);
     background-color: #2c2b2c;
+    border: #f1f0f8;
   }
   
   input {
